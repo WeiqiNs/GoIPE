@@ -3,8 +3,7 @@
 Our application is built on the [PBC Go Wrapper](https://github.com/Nik-U/pbc). One need to install this library first
 before running the implementation.
 
-## A sample run of our scheme, encrypting two random vectors of length 100,
-where each datapoint in the vector is less than 100.
+#### A sample run of our scheme, encrypting two random vectors of length 100, where each datapoint in the vector is less than 100.
 ```go
 A, B, BStar, pp, phi, g, gt, e := Setup(100)
 x := pp.VectorZpRandom(100)
