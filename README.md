@@ -18,3 +18,6 @@ GenerateLookupTable(pp, gt, int32(1), int32(1000000), &table)
 m, e := EvalWithTable(ctx1, ctc1, ctx2, ctk2, pp, phi, &table)
 ```
 `m` will be the recovered inner-product.
+
+## Acknowledgement
+I thank [Dmytro Bogatov](https://dbogatov.org) for his valuable suggestions, insightful feedback, and hands-on code revisions throughout the development of this project.
