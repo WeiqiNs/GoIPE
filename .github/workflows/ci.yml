@@ -11,7 +11,6 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y autoconf autoconf-archive build-essential libgmp-dev flex bison
-          aclocal
 
       - name: Set up Go
         uses: actions/setup-go@v4
@@ -27,7 +26,8 @@ jobs:
       - name: Install PBC
         run: |
           cd pbc
-          autoconf && sudo make && sudo make install
+          aclocal && autoconf 
+          ./configure sudo make && sudo make install
 
       - name: Checkout main repository
         uses: actions/checkout@v4
