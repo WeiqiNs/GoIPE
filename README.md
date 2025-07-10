@@ -1,4 +1,6 @@
-# Implementation of TinyIPE
+# Implementation of Inner Product Encryption in Go
+
+[![GoIPE CI](https://github.com/WeiqiNs/GoIPE/actions/workflows/ci.yml/badge.svg)](https://github.com/WeiqiNs/GoIPE/actions/workflows/ci.yml)
 
 Our application is built on the [PBC Go Wrapper](https://github.com/Nik-U/pbc). One need to install this library first
 before running the implementation.
