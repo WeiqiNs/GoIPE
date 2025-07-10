@@ -10,7 +10,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt install -y autoconf automake libtool flex bison autoconf-archive build-essential libgmp-dev
+          sudo apt install -y autoconf automake libtool flex bison autoconf-archive build-essential libfl-dev libgmp-dev
 
       - name: Set up Go
         uses: actions/setup-go@v4
