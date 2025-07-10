@@ -25,7 +25,7 @@ jobs:
 
       - name: Install PBC
         run: |
-          cd relic/build
+          cd pbc
           ./configure && sudo make && sudo make install
 
       - name: Checkout main repository
